@@ -29,11 +29,30 @@
 //incr++;
 //decr--;
 
-console.log(incr);
-console.log(decr);
+ //console.log(incr);
+//console.log(decr);
 
-const isChecked = true,
-      isClose = true;
+//const isChecked = true,
+      //isClose = true;
 
-console.log(isChecked && isClose);
+//console.log(isChecked && isClose);
 
+const number0fFilm = +prompt('Skolko filmov wi uge posmotreli?','');
+
+const personalMovieDB = {
+   count: number0fFilm,
+   movies: {},
+   actors: {},
+   genres: [],
+   privat: false
+};
+
+const a = prompt('Odin iz poslednih filmov?', ''),
+      b = prompt('Na skolko ocenite ego?',''),
+      c = prompt('Odin iz poslednih filmov?', ''),
+      d = prompt('Na skolko ocenite ego?', '');
+
+personalMovieDB.movies [a] = b;   
+personalMovieDB.movies [c] = d;
+
+console.log (personalMovieDB);
