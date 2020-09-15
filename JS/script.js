@@ -1,4 +1,4 @@
-//"use strict";
+"use strict";
 
 //alert("Hello");
 
@@ -37,10 +37,10 @@
 
 //console.log(isChecked && isClose);
 
-const number0fFilm = +prompt('Skolko filmov wi uge posmotreli?','');
+const numberOfFilms = +prompt('Skolko filmov wi uge posmotreli?','');
 
 const personalMovieDB = {
-   count: number0fFilm,
+   count: numberOfFilms,
    movies: {},
    actors: {},
    genres: [],
